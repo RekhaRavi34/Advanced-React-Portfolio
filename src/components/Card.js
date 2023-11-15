@@ -15,7 +15,7 @@ const Card = ({ title, description, imageSrc }) => {
       <Heading as="h4" size="md" color="black" paddingX={25}>{title}</Heading>
       <Text size="l" color="grey" paddingX={25} >{description}</Text>
       <HStack>
-        <Text fontSize="x" color="black" paddingX={25} paddingBottom={25}>See more <FontAwesomeIcon icon={faArrowRight} size="1x" /></Text>
+        <Text fontSize="sm" color="black" paddingX={25} paddingBottom={25}>See more <FontAwesomeIcon icon={faArrowRight} size="1x" /></Text>
         
       </HStack>
     </VStack>
